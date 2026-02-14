@@ -52,3 +52,29 @@ console.log(typeof userEmail);
 console.log(typeof id);
 console.log(typeof bigNumber);
 console.log(typeof myFunc); //object function
+
+
+//https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+//************Memory***********
+
+//stack (primitive), heap (non-primitive)
+
+
+let myName = "Heaven"
+let anotherName = myName
+anotherName = "Nobody"
+console.log(myName);
+console.log(anotherName);
+
+//non-primitive(heap)
+let user = {
+    email : "satyarth@gmail.com",
+    upi : "satyarth@okaxis"
+}
+
+let user2 = user
+user2.email = "nobody@gmail.com"
+console.log(user.email);
+console.log(user2.email);
