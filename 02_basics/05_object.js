@@ -13,5 +13,3 @@ const course = {
 const {couseInstructor : instructor} = course //object destructuring
 console.log(instructor)
 // console.log(couseInstructor);
-
-
