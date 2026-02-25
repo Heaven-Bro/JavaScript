@@ -1,7 +1,3 @@
-console.log("H");
-// console.log("e");
-// console.log("a");
-// console.log("v");
-// console.log("e");
-// console.log("n");
-
+const addTwo = (num1, num2) => {
+//     return num1 + num2;
+// }
